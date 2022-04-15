@@ -1,5 +1,10 @@
-div {
-    width: 50%;
-    height: 50%;
-    color: red;
+.box {
+    background-color: red;
+    aspect-ratio: 16 / 9;
+    height: 100px;
+}
+
+.boxes {
+ display: flex;
+ gap: .5rem;
 }
